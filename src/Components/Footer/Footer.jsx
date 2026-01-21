@@ -12,21 +12,20 @@ const Footer = () => {
         {/* LEFT COLUMN */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">
-            JUNOSYS NETWORKS PVT. LTD.
+            DPI HEXASHIELD PVT. LTD.
           </h2>
 
           <p className="text-sm leading-relaxed">
-            209, NRK Biz Park, Plot No. 397 & 405, Scheme No. 54, PU-4,
-            Indore (M.P) – 452010
+            Plot no.10 Siya Heights behind Raja bhoj arcade, katara road Bagsewaniya Bhopal (M.P) 462043
           </p>
 
           <p className="mt-4 text-sm">
-            <span className="font-semibold text-white">Phone:</span> 0731-4084549
+            <span className="font-semibold text-white">Phone:</span> 9893530855
           </p>
 
           <p className="text-sm">
             <span className="font-semibold text-white">Email:</span>{" "}
-            info@junosys.in
+            info@dpihexashield.com
           </p>
 
           {/* SOCIAL ICONS */}
@@ -81,7 +80,7 @@ const Footer = () => {
       <div className="relative border-t border-white/10 text-center py-6 text-sm">
         <p>
           © Copyright <span className="text-white font-medium">
-            Junosys Networks Pvt Ltd
+            DPI Hexashield Pvt Ltd
           </span>. All Rights Reserved
         </p>
         <p className="mt-1">
