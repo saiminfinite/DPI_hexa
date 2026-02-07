@@ -83,9 +83,9 @@ const Footer = () => {
             DPI Hexashield Pvt Ltd
           </span>. All Rights Reserved
         </p>
-        <p className="mt-1">
+        {/* <p className="mt-1">
           Designed by <span className="text-[#4da3ff]">C9LAB</span>
-        </p>
+        </p> */}
       </div>
     </footer>
   );

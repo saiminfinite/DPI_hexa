@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import DAI_logo from '../../assets/DAI_logo.png'
+import DPI_hexa_logo from '../../assets/DPI_hexa_logo.png';
 
 const Header = () => {
   const [openDropdown, setOpenDropdown] = useState(false);
@@ -12,7 +12,7 @@ const Header = () => {
 
         {/* LOGO */}
         <h1 className="text-2xl font-bold">
-          <img src={DAI_logo} className="h-20 w-60" alt=""/>
+          <img src={DPI_hexa_logo} className="h-15 w-auto" alt=""/>
         </h1>
 
         {/* DESKTOP NAV */}
