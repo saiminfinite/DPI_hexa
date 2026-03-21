@@ -2,9 +2,9 @@ import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/f
 
 const Footer = () => {
   return (
-    <footer className="relative bg-[#0b0f14] text-gray-300 overflow-hidden">
-      {/* Background Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/80 to-black/90" />
+    <footer className="relative bg-slate-900 text-slate-300 overflow-hidden">
+      {/* Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900 to-slate-950" />
 
       {/* CONTENT */}
       <div className="relative max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -93,7 +93,7 @@ const Footer = () => {
 
 /* SOCIAL ICON BOX */
 const IconBox = ({ children }) => (
-  <div className="w-10 h-10 rounded-md bg-white/10 hover:bg-[#4da3ff] hover:text-white transition flex items-center justify-center cursor-pointer">
+  <div className="w-10 h-10 rounded-md bg-white/10 hover:bg-blue-500 hover:text-white transition flex items-center justify-center cursor-pointer">
     {children}
   </div>
 );

@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Outfit", sans-serif;
   --color-primary: #0f172a;
-  --color-accent: #3b82f6; 
+  --color-accent: #2563eb;
+  --color-accent-light: #3b82f6;
+  --color-cyan: #06b6d4;
+  --color-navy: #0f172a;
 }
 
 :root {
@@ -13,5 +17,21 @@
 }
 
 body {
-  @apply bg-slate-50 text-slate-900;
+  @apply bg-white text-slate-800;
 }
+
+/* Hero background orbs */
+@keyframes orbSwirl {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes orbSwirlReverse {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.orb-swirl { animation: orbSwirl 20s linear infinite; }
+.orb-swirl-reverse { animation: orbSwirlReverse 25s linear infinite; }
+.orb-swirl-slow { animation: orbSwirlReverse 35s linear infinite; }
